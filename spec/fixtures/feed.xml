@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:teams.railsgirlssummerofcode.org,2005:/activities</id>
+  <link rel="alternate" type="text/html" href="http://teams.railsgirlssummerofcode.org"/>
+  <link rel="self" type="application/atom+xml" href="http://teams.railsgirlssummerofcode.org/activities.atom"/>
+  <title>Rails Girls Summer of Code Activities</title>
+  <updated>2013-07-16T09:24:28Z</updated>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/169</id>
+    <published>2013-07-16T05:34:27Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://defendingdiaspora.wordpress.com/?p=198"/>
+    <url>http://defendingdiaspora.wordpress.com/?p=198</url>
+    <title>Testing before coding !!</title>
+    <author>
+      <name>Team Diasbits! &lt;3 (Rails app generator and Diaspora)</name>
+    </author>
+    <updated>2013-07-16T05:30:43Z</updated>
+    <content>&lt;p&gt;We never knew, sitting beside the coaches and struggling with programming can be so fun!!&lt;/p&gt;
+&lt;p&gt;We spent the day learning how to write specs and creating test cases for a problem.&lt;/p&gt;
+&lt;p&gt;At first, it was like surprising for us to hear that we can test a program before coding. But eventually, we understood the importance of specifications and testing before coding. We could write simple code and develop test cases for problems like Factorial and Rational Numbers.&lt;/p&gt;
+&lt;p&gt;Steps for TDD go this way:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a test&lt;/li&gt;
+&lt;li&gt;Run all the tests and see if the new one fails&lt;/li&gt;
+&lt;li&gt;Write some code&lt;/li&gt;
+&lt;li&gt;Run the automated tests and see them succeed&lt;/li&gt;
+&lt;li&gt;Refactor code&lt;/li&gt;
+&lt;li&gt;Repeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was something like a professional approach. Had a fab time !! &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt; &lt;/p&gt;
+&lt;br /&gt;  &lt;a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/defendingdiaspora.wordpress.com/198/"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/defendingdiaspora.wordpress.com/198/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=defendingdiaspora.wordpress.com&amp;#038;blog=54300387&amp;#038;post=198&amp;#038;subd=defendingdiaspora&amp;#038;ref=&amp;#038;feed=1" width="1" height="1" /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/167</id>
+    <published>2013-07-15T18:24:19Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-07-15-dirty-tests"/>
+    <url>http://inchworms.net/blog/2013-07-15-dirty-tests</url>
+    <title>Getting Our Hands Dirty with Tests</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-15T17:49:00Z</updated>
+    <content>&lt;p&gt;So today, after posting an introduction to ourselves on the &lt;a href="http://railsgirlssummerofcode.org/blog/introducing-inchworms/"&gt;RGSoC Blog&lt;/a&gt;, we started building another version of our Songs by Nancy app, but this time using Test Driven Development (TDD).&lt;/p&gt;
+
+&lt;p&gt;RGSoC Team &lt;a href="http://teamhackety.wordpress.com/2013/07/14/the-importance-of-testing/"&gt;Hackety Hack&lt;/a&gt; wrote a great post last week about the importance of testing. Part of our plan for RGSoC was to learn more about testing within the Sinatra development enviroment. To do this we will (for starters) build our Songs by Nancy app again starting with tests first.&lt;/p&gt;
+
+&lt;p&gt;Understanding the importance of TDD is one thing. Knowing what to test for is another. After Matt gave us a few pointers about how we could go about deciding that, we watched a couple of videos, including a tutorial with some basic examples of using Rspec with Sinatra, we started building v3 of our app, starting with some tests.&lt;/p&gt;
+
+&lt;p&gt;Everything went okay (and by &amp;#39;everything&amp;#39; we mean a single test) until we wanted to test the content of a view. As usual there was an inordinate amount of mostly fruitless searching online for help. But (also as usual) we eventually found something to &lt;a href="https://github.com/jnicklas/capybara"&gt;help us&lt;/a&gt;. We learnt that Sinatra doesn&amp;#39;t respond to the same Rspec methods that Rails does, and that in any case, to test anything on the front-end of our app we would need to use the Capybara gem. Capybara helps test web applications by simulating how a real user interacts with the app (and an app&amp;#39;s views function in response to a user&amp;#39;s interaction, hence the need for Capybara when testing views).&lt;/p&gt;
+
+&lt;p&gt;So, it&amp;#39;s been a long day, and now we&amp;#39;re off to our Rubymonsters project group.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.symbolicsound.com/zzz/pub/Learn/Capybara/Cc-Capybara.gif" alt="capybara"&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/166</id>
+    <published>2013-07-15T18:24:18Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgrrlsdailyfeed.tumblr.com/post/55524898225"/>
+    <url>http://railsgrrlsdailyfeed.tumblr.com/post/55524898225</url>
+    <title>Wk 5 15/07/2013 - JavaScript and jQuery basics</title>
+    <author>
+      <name>Team RailsGrrls (RailsApps + Rubinius)</name>
+    </author>
+    <updated>2013-07-15T17:36:45Z</updated>
+    <content>&lt;p&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="docs-internal-guid-21fa2e42-e366-1310-7b21-f9a4c28d8023"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Put a github issue for Learners Directory: &lt;/span&gt;&lt;a href="https://github.com/mokus80/learners_directory/issues"&gt;&lt;span&gt;&lt;a href="https://github.com/mokus80/learners_directory/issues"&gt;https://github.com/mokus80/learners_directory/issues&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Decided next step: to add a ratings system using JavaScript and jQuery&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Did tutorials and JavaScript and jQuery basics &lt;img src="http://media.tumblr.com/e03238ab338f9e5921c6525660fe567f/tumblr_inline_mpznkyyPqK1qz4rgp.png"/&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/165</id>
+    <published>2013-07-15T18:24:18Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/55517658764"/>
+    <url>http://highwaytorails.tumblr.com/post/55517658764</url>
+    <title>Day 10 - 15.7.2013 - Connecting models</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-15T15:48:37Z</updated>
+    <content>Stuff worked today!
+With help from Felix, we managed to have our Alarm Trigger recognize our...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/164</id>
+    <published>2013-07-15T11:14:42Z</published>
+    <updated>2013-07-16T09:24:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://n-1.cc/blog/view/1709011/another-monday"/>
+    <url>https://n-1.cc/blog/view/1709011/another-monday</url>
+    <title>Another Monday</title>
+    <author>
+      <name>Team D*  (Diaspora)</name>
+    </author>
+    <updated>2013-07-15T11:12:25Z</updated>
+    <content>&lt;p&gt;In the morning we tried to do some additions to the front end stuff [still the round avatar issue&amp;nbsp;&lt;span style="color: rgb(51, 51, 51); font-size: 12px; font-style: normal; background-color: rgb(247, 247, 247);"&gt;&amp;nbsp;(h&lt;/span&gt;&lt;a href="https://github.com/diaspora/diaspora/issues/4288" rel="nofollow" style="font-style: normal; font-size: 12px; background-color: rgb(247, 247, 247);"&gt;ttps://github.com/diaspora/diaspora/issues/4288&lt;/a&gt;&lt;span style="color: rgb(51, 51, 51); font-size: 12px; font-style: normal; background-color: rgb(247, 247, 247);"&gt;)&lt;/span&gt;] that was committed last week.&lt;/p&gt;&lt;div&gt;And we tried to make the cucumber test which failed on Travis CI, but not locally, pass there.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Which didn&amp;#39;t work. But after adding another commit (shadow boxes for the user avatar) all test were green on Travis CI :D.&amp;nbsp;&lt;br /&gt;After that we tried a new approach to the ActivityStream::Photos which did not work so far...&amp;nbsp;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/163</id>
+    <published>2013-07-15T11:14:39Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgirlssummerofcode.org//blog/introducing-inchworms"/>
+    <url>http://railsgirlssummerofcode.org//blog/introducing-inchworms</url>
+    <title>Introducing inchworms</title>
+    <author>
+      <name>Team Organizers (Rails Girls Summer of Code)</name>
+    </author>
+    <updated>2013-07-15T07:00:00Z</updated>
+    <content>&lt;p&gt;Hej Everbody,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We are the inchworms&lt;/strong&gt; and we chose that name because the coding process for us is like crawling inch by inch. Also we like this &lt;a href='https://www.youtube.com/watch?v=cyasgr9mn3s'&gt;video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#8217;ve been working with Rails Girls Summer of Code for two weeks now and here is a short review&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;In the first week we tried and managed to get the hang of the Ruby framework Sinatra. In the second we were busy with screencasting our newly acquired knowledge for other beginners. The first week went pretty fast, the second was a bit exhausting because we had to review and redo everything on a Mac with an older version of Ruby (previosly we both worked with Ubuntu). But also we learned a lot! Primarily how to cope with failure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We&amp;#8217;re both in the rubymosters project group&lt;/strong&gt;, where we meet once a week and learn how to code. It was there we first heard about the Rails Girls Summer of Code. Since we both enjoyed learning how to code so much we thought RGSoC would be fantastic to participate in: we could spend every day, not just one evening a week, learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our RGSoC-goal is&lt;/strong&gt; to understand how to build a couple of sample apps with &lt;a href='http://sinatrarb.com'&gt;Sinatra&lt;/a&gt;, produce some screencasts for installing and working with Sinatra, refactor some Sinatra tests, and in the last month build a web application for the visualization of a large public dataset of EU farm-subsidies. We will do this together with the &lt;a href='http://okfn.de/'&gt;open knowledge foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We choose the Sinatra project&lt;/strong&gt; as it&amp;#8217;s a &amp;#8216;lighter&amp;#8217; and more basic framework than rails. We thought it would help us understand on a deeper level how rails and all other web application frameworks operate. The motivation for the visualization-project was to build something useful that helps make sense of a large dataset about an important EU program. We also want to help the open source community and give something back.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The happiest moment&lt;/strong&gt; was when we got code working on a first attempt without resorting to google or asking for help.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If we could code anything in the world&lt;/strong&gt; Anja would like to code a new internet without surveillance, or at least a mail program with easier encryption, and Carla would like to recode her own brain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We have learnt&lt;/strong&gt; that work isn&amp;#8217;t finished in one day, that you have to think a lot about the code and how it could work (or work better), and that you have to get used to failure :-)&lt;/p&gt;
+
+&lt;p&gt;Anja and Carla&lt;/p&gt;
+&lt;img src='/img/twins.jpg' alt='Anja and Carla in front of the Computer' width='400' /&gt;
+&lt;p&gt;&lt;em&gt;image courtesy &lt;a href='https://twitter.com/zaziemo/status/351742254945280000/photo/1'&gt;@zaziemo&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/162</id>
+    <published>2013-07-15T11:05:00Z</published>
+    <updated>2013-07-15T11:05:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgirlssummerofcode.org//blog/first-blogpost"/>
+    <url>http://railsgirlssummerofcode.org//blog/first-blogpost</url>
+    <title>First Blogpost</title>
+    <author>
+      <name>Team Organizers (Rails Girls Summer of Code)</name>
+    </author>
+    <updated>2013-07-15T07:00:00Z</updated>
+    <content>&lt;p&gt;Hej Everbody,&lt;/p&gt;
+
+&lt;p&gt;We are working in Rails Girls Summer of Code for two weeks now and here is a short review. In the first week we tried and managed to get the hang of the ruby framework Sinatra. And in the second we were busy with screencasting our newly acquired knowledge for other beginners. The first week went pretty fast, the second was a bit exhausting because we had to review and redo everything on a mac with an older version of ruby. Previosly we both worked with ubuntu. But also we learned a lot! Primarily how to cope with failure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We&amp;#8217;re both in the rubymosters project group&lt;/strong&gt;, where we meet once a week and learn how to code. It was there where we first heard about the Rails Girls Summer of Code. Since we both enjoyed learning how to code so much, we thought RGSoC would be fantastic to participate in as we could spend every day, not just one evening a week, learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our RGSoC-goal is&lt;/strong&gt; to understand how to build a couple of sample apps with &lt;a href='http://sinatrarb.com'&gt;Sinatra&lt;/a&gt;, produce some screencasts for installing and working with Sinatra, refactor some Sinatra tests, and in the last month build a web application for the visualization of a large public dataset of EU farm-subsidies. We will do this together with the &lt;a href='http://okfn.de/'&gt;open knowledge foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We choose the Sinatra project&lt;/strong&gt; as it&amp;#8217;s a &amp;#8216;lighter&amp;#8217; and more basic framework than rails. We thought it would help us understand on a deeper level how rails and all other web application frameworks operate. The motivation for the visualization-project is to build something useful that helps make sense of a large dataset about an important EU program. We also want to help the open source community and give something back.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The happiest moment&lt;/strong&gt; was when we got code working on a first attempt without any googleing or asking for help.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If we could code anything in the world&lt;/strong&gt; Anja would like to code a new internet without surveillance or at least a mail program with easier encryption, and Carla would like to recode her own brain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We have learnt&lt;/strong&gt; that work isn&amp;#8217;t finished in one day, and that you have to think a lot about the code and how it could work or work better, and that you have to get used to failure :-)&lt;/p&gt;
+
+&lt;p&gt;Anja and Carla&lt;/p&gt;
+&lt;img src='/img/twins.jpg' alt='Anja and Carla in front of the Computer' width='400' /&gt;
+&lt;p&gt;&lt;em&gt;image courtesy &lt;a href='https://twitter.com/zaziemo/status/351742254945280000/photo/1'&gt;@zaziemo&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/161</id>
+    <published>2013-07-15T10:24:27Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgirlssummerofcode.org//blog/inchworms"/>
+    <url>http://railsgirlssummerofcode.org//blog/inchworms</url>
+    <title>Inchworms break the first ground</title>
+    <author>
+      <name>Team Organizers (Rails Girls Summer of Code)</name>
+    </author>
+    <updated>2013-07-15T07:00:00Z</updated>
+    <content>&lt;p&gt;I guess you are as curious as we are about our teams, right?&lt;/p&gt;
+
+&lt;p&gt;So from now on every week we&amp;#8217;ll present a team to you that will tell us a little bit about themselves, what awesome stuff they are up to and how things are going.&lt;/p&gt;
+
+&lt;p&gt;Later today we are beginning with the Berlin based &lt;a href='http://inchworms.net/blog/'&gt;Team Inchworms&lt;/a&gt;. Stay tuned to learn more about Sinatra, what Carla and Anja&amp;#8217;s happiest moment was so far and how they came to their team name.&lt;/p&gt;
+&lt;img src='/img/inchworms.gif' height='230' /&gt;&lt;img src='/img/inchworms.jpeg' height='230px' /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/159</id>
+    <published>2013-07-15T01:14:21Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/55469282892"/>
+    <url>http://newrosies.tumblr.com/post/55469282892</url>
+    <title>Day 12, Week 2.</title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-15T01:13:23Z</updated>
+    <content>We start with Rack. What it is, what are its basis and how to use it.
+Next week we will study in...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/168</id>
+    <published>2013-07-15T21:24:24Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://lipen.co/til/ninja-style.html "/>
+    <url>http://lipen.co/til/ninja-style.html </url>
+    <title>Ninja Style</title>
+    <author>
+      <name>Team Magda (impress.js)</name>
+    </author>
+    <updated>2013-07-15T00:00:00Z</updated>
+    <content>&lt;p&gt;JavaScript is becoming more domesticated. I made 6 template generators, and it really seems I can contribute to impress.js and make user&amp;#8217;s life easier.&lt;/p&gt;
+
+&lt;p&gt;I had Skype call with my mentor Chris, who shared with me his golden tip: &amp;#8220;code like a Ninja&amp;#8221;. True Ninja would add one or two lines to the root code and work would be done, but Chris quickly produce and explain also more lame solution (in separate script) without even a drop of sweat sitting in hot New Jersey. I really think it was not too easy to generate slides template in the &amp;#8220;snake&amp;#8221; grid style like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;       1st slide, 2nd slide, 3rd slide, 4th slide,
+        8th slide, 7th slide, 6th slide, 5th slide,
+        9th slide, 10th slide, 11th slide, 12th slide...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;Trello Board&lt;/a&gt; looks like a military proving ground, &lt;a href='https://github.com/lipenco/theme-impress/commit/77a454becafb577d176983b6af1eb59ca19a7fdb#commitcomment-3636545'&gt;GitHub impress repo&lt;/a&gt; like my essays form school - so many comments and corrections. If my literature teacher had had so much patience for me like Bartek I would definitely have become a literature teacher. Luck me, he had not.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How combine functions in functions and reverse slides direction.&lt;/li&gt;
+
+&lt;li&gt;How makes JavaScript understand what I want.&lt;/li&gt;
+
+&lt;li&gt;Small parenthesis can make you feel stupid, if you don&amp;#8217;t add them in a right place.&lt;/li&gt;
+
+&lt;li&gt;Nice tools like &lt;a href='http://jsbeautifier.org/'&gt;jsbeautifier&lt;/a&gt; and &lt;a href='http://jshint.com/'&gt;JS Hint&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Watermelon has 300 kcl for 1kg.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: If I think twice, I will figure it out on the fifth attempt.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/158</id>
+    <published>2013-07-14T03:54:22Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://teamhackety.wordpress.com/?p=43"/>
+    <url>http://teamhackety.wordpress.com/?p=43</url>
+    <title>The Importance of Testing</title>
+    <author>
+      <name>Team Hackety Hack</name>
+    </author>
+    <updated>2013-07-14T03:49:47Z</updated>
+    <content>&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;It is very important to always test all software that you build. This is because human beings are fallible and can make mistakes. Mistakes can be brought about by pressure due to deadlines, complexity of requirements, errors in project specification as well as design and software code.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Consequences of faulty software include:-&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;News reports in February 2003 revealed that the U.S. Treasury Department mailed 50,000 Social Security checks without any beneficiary names. A spokesperson indicated that the missing names were due to an error in a software change. Replacement checks were subsequently mailed out with the problem corrected, and recipients were then able to cash their Social Security checks. &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size:small;"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;In March of 2002 it was reported that software bugs in Britain&amp;#8217;s national tax system resulted in more than 100,000 erroneous tax overcharges. The problem was partly attributed to the difficulty of testing the integration of multiple systems. &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;&lt;strong&gt;How Much Testing is enough:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Complete testing is impossible for several reasons. They are:- &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;You can’t test all the inputs to a program&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size:small;"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;You can’t test all the combinations of inputs to a program&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size:small;"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;You can’t test all the paths through a program&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size:small;"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;You can’t test for all of the other potential failures, such as those caused by user interface design errors or incomplete requirements&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Testing is necessary and measures software quality. Once faults are removed, software quality and reliability is immediately improved. Software failure can prove to be very expensive and can have a negative effect on a business.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Test coverage is an important aspect of software engineering that describes the degree to which your code has been tested. It&amp;#8217;s an arbitrary much contested figure in the software developer community and depends very much on the project and the stipulations set by the software architect. The typical test coverage figure can range from 50% right up to 100% with an average value for a project set to be above 80%.&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;&lt;strong&gt;Benefits of code coverage measurement:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;It creates additional test cases to increase coverage &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;It helps in finding areas of a program not exercised by a set of test cases &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;It helps in determining a quantitative measure of code coverage, which indirectly measures the quality of the application or product &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Drawback of code coverage measurement:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;One drawback of code coverage measurement is that it measures coverage of what has been written, i.e. the code itself; it cannot say anything about the software that has &lt;/span&gt;&lt;/span&gt;&lt;em&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;not &lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;been written &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;If a specified function has not been implemented or a function was omitted from the specification, then structure-based techniques can&amp;#8217;t reveal anything about them and can only look at a structure which is already there &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;In the Ruby world, the popular testing suites used are Rspec, Cucumber and MiniTest, a testing framework bundled with Ruby 1.9.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;In the Hackety-Hack project, we will be using a combination of Rspec and Cucumber and using practices such as TDD (test-driven development that involves writing tests before writing the code being tested) and BDD ( behaviour-driven development where the focus is on behaviour between people and systems). For test coverage, we will be using a Ruby gem called simplecov which is a code coverage analysis tool for Ruby 1.9.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align="LEFT"&gt;&lt;span style="font-family:Arial, sans-serif;"&gt;&lt;span style="font-size:small;"&gt;Here is a &lt;a href="http://screencast.com/t/fGX5LPut3y"&gt;screencast&lt;/a&gt; showing the installation of simplecov and the subsequent running of Rspec as well as the generation of the code coverage report stored in coverage/index.html which can also be rendered through a browser.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br /&gt;  &lt;a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/teamhackety.wordpress.com/43/"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/teamhackety.wordpress.com/43/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=teamhackety.wordpress.com&amp;#038;blog=54452786&amp;#038;post=43&amp;#038;subd=teamhackety&amp;#038;ref=&amp;#038;feed=1" width="1" height="1" /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/157</id>
+    <published>2013-07-13T22:14:47Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/55371207761"/>
+    <url>http://newrosies.tumblr.com/post/55371207761</url>
+    <title>Day 11: We still have further to go</title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-13T22:14:04Z</updated>
+    <content>
+
+Yesterday was the beginning of another trip. We began the study of Rails: Our mentor give us a...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/154</id>
+    <published>2013-07-13T14:34:37Z</published>
+    <updated>2013-07-16T09:24:31Z</updated>
+    <link rel="alternate" type="text/html" href="http://teamhackety.wordpress.com/?p=38"/>
+    <url>http://teamhackety.wordpress.com/?p=38</url>
+    <title>Volunteers needed!</title>
+    <author>
+      <name>Team Hackety Hack</name>
+    </author>
+    <updated>2013-07-13T14:30:45Z</updated>
+    <content>&lt;p&gt;Hello everyone!&lt;/p&gt;
+&lt;p&gt;To budding developers looking to work on our  Team Hackety Hack open source project, we are looking for volunteers who are bilingual.&lt;/p&gt;
+&lt;p&gt;One of our tasks is to translate the Hackety Hack website into foreign languages so that users around the world would be able to use the site with ease, so if you are interested please sign up on our &lt;a href="https://github.com/teamhacketyhack"&gt;Github&lt;/a&gt; page under the issue list, leave a comment here or email teamhacketyhack at gmail dot com. If you love learning and a challenge then we would love to have you!&lt;/p&gt;
+&lt;p&gt;We want to make &lt;a href="http://www.hackety-hack.com"&gt;Hackety-Hack&lt;/a&gt; a truly global phenomenon, accessible by all regardless of location or nationality, and make learning Ruby even more fun!&lt;/p&gt;
+&lt;p&gt;Team Hackety Hack&lt;/p&gt;
+&lt;br /&gt;  &lt;a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/teamhackety.wordpress.com/38/"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/teamhackety.wordpress.com/38/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=teamhackety.wordpress.com&amp;#038;blog=54452786&amp;#038;post=38&amp;#038;subd=teamhackety&amp;#038;ref=&amp;#038;feed=1" width="1" height="1" /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/153</id>
+    <published>2013-07-13T10:54:33Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgirlssummerofcode.org//blog/the-beginning"/>
+    <url>http://railsgirlssummerofcode.org//blog/the-beginning</url>
+    <title>The beginning</title>
+    <author>
+      <name>Team Organizers (Rails Girls Summer of Code)</name>
+    </author>
+    <updated>2013-07-13T07:00:00Z</updated>
+    <content>&lt;img src='https://f.cloud.github.com/assets/1711357/792581/fdabc3fc-eba7-11e2-9fcc-b114f9a1d44f.png' align='middle' height='300' /&gt;
+&lt;p&gt;Our journey has begun and we&amp;#8217;re right on track, code island starboard ahead!&lt;/p&gt;
+
+&lt;p&gt;Since July 1st we wrote 222 emails,&lt;a href='http://teams.railsgirlssummerofcode.org/'&gt; 133 blog posts &lt;/a&gt; have been posted by the teams, they spent more than 99 hours of coding - and this is only the beginning!&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s been now 12 days since the summer of code officially started and here are the students of 12 teams saying hello world and obviously being super happy about their Summer of Code! Thanks to everybody who made this happen &amp;#9829;&lt;/p&gt;
+&lt;img src='https://f.cloud.github.com/assets/1711357/792560/1d1326d8-eba6-11e2-8fb3-2de8298fb07b.png' width='600' /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/156</id>
+    <published>2013-07-13T20:44:29Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-12-03-maren-invite"/>
+    <url>http://inchworms.net/blog/2013-12-03-maren-invite</url>
+    <title>An Invitation Anja Could Not Resist</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-12T19:00:00Z</updated>
+    <content>&lt;p&gt;Today while Carla met with her &lt;a href="http://handbook.uts.edu.au/courses/c02020.html"&gt;DCA&lt;/a&gt; supervisor (visting Berlin from Australia), Anja chased some much needed fresh air by accepting Maren&amp;#39;s invitation to sit and work in her garden for the day (Maren, aka &lt;a href="https://twitter.com/zaziemo"&gt;@zaziemo&lt;/a&gt;, is one of our awesome &lt;a href="https://github.com/rubymonsters"&gt;rubymonsters&lt;/a&gt; collegues). Unfortunately the weather did not agree, so they worked in Maren&amp;#39;s comfortable kitchen instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/marens_kitchen.jpg" alt="Marens kitchen"&gt;&lt;/p&gt;
+
+&lt;p&gt;While snacking on fruits, and without any distractions, Anja was able to get organised and start the first of our tests of the Sinatra app. It tests whether the sites routes are available. It went green! &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="text language-text" data-lang="text"&gt;  def test_root_returns_home
+    get &amp;#39;/&amp;#39;
+    assert last_response.ok?
+  end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;On Monday we&amp;#39;ll start with rspec testing by using this tutorial: 
+&lt;a href="http://net.tutsplus.com/tutorials/ruby/how-to-integrate-rspec-into-a-sinatra-app/"&gt;Tutplus Sinatra Tutorial&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;And, after a long and devastating fight during the week trying to deploy our app to Heroku via our iMacs (both running ruby 1.8.7), a fight we didnt win, we agreed to write up the tutorial as a blog post instead and leave the screencasts for a while. We might pick them up again later. As for deploying via mac, if we ever do, we&amp;#39;ll update our Ruby version first. We&amp;#39;re actually pretty happy to get back to Ubuntu :-)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/155</id>
+    <published>2013-07-13T15:14:37Z</published>
+    <updated>2013-07-13T20:34:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-12-03-xxx"/>
+    <url>http://inchworms.net/blog/2013-12-03-xxx</url>
+    <title>Invitation Anja could not resist</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-12T19:00:00Z</updated>
+    <content/>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/152</id>
+    <published>2013-07-12T17:54:28Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://disaster-assistance.blogspot.com/2013/07/rails-4-or-rails-3.html"/>
+    <url>http://disaster-assistance.blogspot.com/2013/07/rails-4-or-rails-3.html</url>
+    <title>Rails 4 or Rails 3?</title>
+    <author>
+      <name>Team Volontari.at (Disaster Assistance)</name>
+    </author>
+    <updated>2013-07-12T17:50:00Z</updated>
+    <content>Today, I've been working with&amp;nbsp;http://guides.rubyonrails.org/index.html. The last version of the guide uses Rails 4 and Volontari uses Rails 3.&lt;br /&gt;&lt;br /&gt;First, I thought that I was able to make the blog of the guide with Rails 3, until I arrived to Strong Parameters. I had an error with these parameters, so I decided to use Rails 4.&lt;br /&gt;For updating Rails, I used&amp;nbsp;http://railscasts.com/episodes/415-upgrading-to-rails-4&lt;br /&gt;&lt;br /&gt;I didn't know if updating Rails was going to affect to Volontari app. I solved the problem with the blog of the guide, but Volontari, didn't work. So I made a branch in Github, I installed with bundle, started the rails server and it worked. I don't want to make a commit to Volontari until I speak with Mathias.&lt;br /&gt;&lt;br /&gt;Then, I continued until point 5.12. of the guide.&lt;br /&gt;&lt;br /&gt;Although I was able to continue when I had an error, I have a lot of doubts about how Rails works. So, I'll have to ask Mathias about that. I think that today has been a good day of work and I was able to see how easy is making an application with Rails.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/151</id>
+    <published>2013-07-12T16:14:24Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/55265309048"/>
+    <url>http://highwaytorails.tumblr.com/post/55265309048</url>
+    <title>Day 9 - 12.7.2013 - Select2 and Databases</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-12T16:08:00Z</updated>
+    <content>Enormous thanks goes out to the entire IT department at ABSOLVENTA today for helping us with our...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/150</id>
+    <published>2013-07-12T14:44:36Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgrrlsdailyfeed.tumblr.com/post/55260240992"/>
+    <url>http://railsgrrlsdailyfeed.tumblr.com/post/55260240992</url>
+    <title>Wk 4 - 12/07/2013 - Lots of frustration and some work on the layout</title>
+    <author>
+      <name>Team RailsGrrls (RailsApps + Rubinius)</name>
+    </author>
+    <updated>2013-07-12T14:39:00Z</updated>
+    <content>&lt;p id="docs-internal-guid-727cb89b-d34e-394d-63ee-2a25bf796ea7"&gt;&lt;span&gt;Overview:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;More work on &lt;/span&gt;&lt;span&gt;user flow, layout and buttons&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Spend a lot of time fixing a problem involving authentication with GitHub&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;img src="http://media.tumblr.com/93e1c7f51442448fe6120e17b2e3898d/tumblr_inline_mptvftxuwI1qz4rgp.png"/&gt;&lt;/span&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/149</id>
+    <published>2013-07-12T11:24:15Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://dalach.blogspot.com/2013/07/git-init.html"/>
+    <url>http://dalach.blogspot.com/2013/07/git-init.html</url>
+    <title>git init</title>
+    <author>
+      <name>Team Species+</name>
+    </author>
+    <updated>2013-07-12T11:15:00Z</updated>
+    <content>Hello, World!*&lt;br /&gt;&lt;br /&gt;This week was fast like an eye blink.&lt;br /&gt;&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;First of all, we were looking for open data about geolocation of endangered species in Poland. We failed badly, but we will survive :) What we mean by that is, we had to change our plans and prototypes a little.&lt;/blockquote&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git add "introduction.txt"&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git commit -m "Where is data&lt;/span&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;?"&lt;/span&gt;&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;With our coach we decided to use AngularJS in our project to make it smooth and good looking. It's challenging for us, because we've never created a SPA (&lt;i&gt;single page application&lt;/i&gt;). We finished some tutorials and watched &lt;a href="http://www.youtube.com/watch?v=i9MHigUZKEM"&gt;very nice video.&lt;/a&gt;&amp;nbsp;On Tuesday we meet some Rails+Angular devs - here's &lt;a href="http://dalach.blogspot.com/2013/07/lets-meet-krug.html"&gt;what we wrote about it&lt;/a&gt;.&lt;/blockquote&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git add "meet_angular.txt"&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git commit -m "Let's make it a single page"&lt;/span&gt;&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;Data, data, data. How to show data? How to make them understandable and readable for a average human being? Tables are boring. thousands of &amp;lt;li&amp;gt; would kill us, .PDFs enable to do... nothing. Thanks God, our coach (&lt;a href="https://twitter.com/mokrzu"&gt;@mokrzu&lt;/a&gt;) can find a solution to any of our problems. &lt;a href="http://d3js.org/"&gt;D3.js&lt;/a&gt;&amp;nbsp;comes on a stage to rescue us :)&lt;/blockquote&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git add "show_me_your_data.txt"&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git commit -m "There was a coach, who saved the team"&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;blockquote class="tr_bq"&gt;As you can see, we've been very busy, but we couldn't forget about the real life, so we have our very special, titanic-style Friday hug!&amp;nbsp;&lt;/blockquote&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-E4pHxytwqSk/Ud_jYxDteXI/AAAAAAAACFI/x6r1wInRywA/s1600/rgsoc10friday.gif" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img alt="Friday hug" border="0" height="300" src="http://4.bp.blogspot.com/-E4pHxytwqSk/Ud_jYxDteXI/AAAAAAAACFI/x6r1wInRywA/s400/rgsoc10friday.gif" title="" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Friday hug!&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git add "we_love_you.txt"&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git commit -m "Friday hug!"&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;git push origin week_2&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Alicja &amp;amp; Wiktoria&lt;br /&gt;&lt;br /&gt;&lt;span style="background-color: white; color: #4b4b4b; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px;"&gt;PS. We're on Twitter:&amp;nbsp;&lt;/span&gt;&lt;a href="https://twitter.com/bike_lover_ka" style="background-color: white; color: #8e8e8e; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px; text-decoration: none;"&gt;@bike_lover_ka&lt;/a&gt;&lt;span style="background-color: white; color: #4b4b4b; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px;"&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;a href="https://twitter.com/wdalach" style="background-color: white; color: #8e8e8e; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px; text-decoration: none;"&gt;@wdalach&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*no doubt, we're getting more and more computerized every day :)</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/146</id>
+    <published>2013-07-11T15:44:38Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-07-10-screencasting-3"/>
+    <url>http://inchworms.net/blog/2013-07-10-screencasting-3</url>
+    <title>Screencasting Part 3</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-11T17:45:00Z</updated>
+    <content>&lt;p&gt;... Tutorial Part 3 is still in progress. Issues related to deploying to heroku carried on into the late afternoon. They remain unresolved. We&amp;#39;ll finish editing the bulk of the screencast this evening. Anja will see if she can get heroku deploy working on her machine. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/bioshrimp"&gt;@bioshrimp&lt;/a&gt; did a drawing of grumpy Carla. Which we love.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/grumpycarla.jpg" alt="grumpy carla"&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/147</id>
+    <published>2013-07-11T16:14:31Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgrrlsdailyfeed.tumblr.com/post/55179571313"/>
+    <url>http://railsgrrlsdailyfeed.tumblr.com/post/55179571313</url>
+    <title>Wk 4 - 11/07/2013 - Build an authentication system </title>
+    <author>
+      <name>Team RailsGrrls (RailsApps + Rubinius)</name>
+    </author>
+    <updated>2013-07-11T16:10:03Z</updated>
+    <content>&lt;p id="docs-internal-guid-727cb89b-ce7e-d346-f31f-04b43f9b4232"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Build an authentication system with Github using the ‘Omniauth’ gem&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Some work on user flow and layout&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/145</id>
+    <published>2013-07-11T14:24:32Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/55173432386"/>
+    <url>http://highwaytorails.tumblr.com/post/55173432386</url>
+    <title>Day 8 - 11.7.2013 - Autofill</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-11T14:22:00Z</updated>
+    <content>Today was one of those days where it felt like we didn&amp;#8217;t get much done but were working as...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/144</id>
+    <published>2013-07-11T11:34:39Z</published>
+    <updated>2013-07-16T09:24:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://n-1.cc/blog/view/1706081/thursday"/>
+    <url>https://n-1.cc/blog/view/1706081/thursday</url>
+    <title>thursday</title>
+    <author>
+      <name>Team D*  (Diaspora)</name>
+    </author>
+    <updated>2013-07-11T11:27:11Z</updated>
+    <content>&lt;p&gt;Today is not very busy, because some of us stayed at home due to health related issues.&lt;/p&gt;&lt;p&gt;Nevertheless one of us worked on the issue to&amp;nbsp;Convert all ActivityStreams::Photo to StatusMessages and drop ActivityStreams::Photo (&lt;span style="font-size: 12px;"&gt;https://github.com/diaspora/diaspora/issues/4144).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The other one worked on a simple UI change to implement round avatars (h&lt;a href="https://github.com/diaspora/diaspora/issues/4288" style="font-size: 12px;"&gt;ttps://github.com/diaspora/diaspora/issues/4288&lt;/a&gt;).&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/143</id>
+    <published>2013-07-11T09:59:55Z</published>
+    <updated>2013-07-11T09:59:55Z</updated>
+    <link rel="alternate" type="text/html" href="http://teams.railsgirlssummerofcode.org/mailings/8"/>
+    <url>http://teams.railsgirlssummerofcode.org/mailings/8</url>
+    <title>T-Shirt size for gifts!</title>
+    <author>
+      <name>summer-of-code-team@railsgirls.com</name>
+    </author>
+    <updated>2013-07-11T09:59:55Z</updated>
+    <content/>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/160</id>
+    <published>2013-07-15T08:44:34Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://teamspree.github.io/blog/2013/07/11/hello-octopress"/>
+    <url>http://teamspree.github.io/blog/2013/07/11/hello-octopress</url>
+    <title>Hello Octopress</title>
+    <author>
+      <name>Team Spree Girls (Spree)</name>
+    </author>
+    <updated>2013-07-11T05:22:00Z</updated>
+    <content>
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/142</id>
+    <published>2013-07-11T04:44:53Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/55147143400"/>
+    <url>http://newrosies.tumblr.com/post/55147143400</url>
+    <title>Today..</title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-11T04:34:36Z</updated>
+    <content>For our mentor is very important to have good practices in ruby, for today we finished our training...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/141</id>
+    <published>2013-07-10T22:44:33Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://disaster-assistance.blogspot.com/2013/07/kick-off-of-volontariat.html"/>
+    <url>http://disaster-assistance.blogspot.com/2013/07/kick-off-of-volontariat.html</url>
+    <title>Kick off of volontari.at</title>
+    <author>
+      <name>Team Volontari.at (Disaster Assistance)</name>
+    </author>
+    <updated>2013-07-10T22:36:00Z</updated>
+    <content>I arrived to Berlin on Monday to a new life. Part of this new life is learning Rails. And I have help from my coach Mathias Gawlista.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We had a kickoff today at&amp;nbsp;&lt;a class="moz-txt-link-freetext" href="http://sanktoberholz.de/"&gt;http://sanktoberholz.de&lt;/a&gt;&amp;nbsp;listening to Buena Vista Social Club (http://goo.gl/IZIvc) and more cool music. Mathias has showed me the arquitecture of Volontari and some examples that this platform can do. &lt;span class="s1"&gt;&lt;a href="http://volontari.at/"&gt;Volontari.at (future Voluntary.Services)&lt;/a&gt;&lt;/span&gt; is a demo crowdsourcing platform that uses&amp;nbsp;&lt;a href="https://github.com/rails-girls-summer-of-code/summer-of-code/wiki/voluntary%20gem"&gt;&lt;span class="s1"&gt;http://rubygems.org/gems/voluntary&lt;/span&gt;&lt;/a&gt;.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;With the help of Mathias, I have cloned the Voluntary project from, installed postgresql and mongodb, and run the Volontari app in my laptop. Finally, I have pushed to Github.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I have to learn a lot of things but I feel so excited for this project.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Berlin is Cool!!&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/140</id>
+    <published>2013-07-10T16:54:36Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-07-10-screencasting-2"/>
+    <url>http://inchworms.net/blog/2013-07-10-screencasting-2</url>
+    <title>Screencasting Part 2</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-10T18:49:00Z</updated>
+    <content>&lt;p&gt;More of the same today, only Anja was the voice over &lt;em&gt;speakerenin&lt;/em&gt; this time. 
+Tutorial Part 2 video is below. Files available to download &lt;a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-2"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;object id="scPlayer"  width="650" height="365" type="application/x-shockwave-flash" data="http://content.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/scplayer.swf" &gt;
+&lt;param name="movie" value="http://content.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/scplayer.swf" /&gt;
+&lt;param name="quality" value="high" /&gt;
+&lt;param name="bgcolor" value="#FFFFFF" /&gt;
+&lt;param name="flashVars" value="thumb=http://content.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/FirstFrame.jpg&amp;containerwidth=1280&amp;containerheight=720&amp;xmp=sc.xmp&amp;content=http://content.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/Tutorial%20Part%202.mp4&amp;blurover=false" /&gt;
+&lt;param name="allowFullScreen" value="true" /&gt;
+&lt;param name="scale" value="showall" /&gt;
+&lt;param name="allowScriptAccess" value="always" /&gt;
+&lt;param name="base" value="http://content.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/" /&gt;
+&lt;iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/inchworms/folders/Default/media/7891299a-8a2e-45a8-864b-504af213a940/embed" height="365" width="650" &gt;&lt;/iframe&gt;
+&lt;/object&gt; 
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Also: a stop motion video fairy came to visit.&lt;/p&gt;
+
+&lt;iframe src="http://player.vimeo.com/video/70044018" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; 
+
+&lt;p&gt;&lt;br&gt;
+Meanwhile, after a better than expected day in the field (bowling England all out for 215) the Aussies collapsed to 3 wickets down for 39. Something tells me their summer might be one of pain...&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/139</id>
+    <published>2013-07-10T16:04:20Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/55091888825"/>
+    <url>http://highwaytorails.tumblr.com/post/55091888825</url>
+    <title>Day 7 - 10.7.2013 - New Rails 4 Stuff</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-10T15:58:45Z</updated>
+    <content>We started off today by re-formatting our alarm trigger a bit. The table is now on the...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/138</id>
+    <published>2013-07-10T15:34:28Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgrrlsdailyfeed.tumblr.com/post/55090258197"/>
+    <url>http://railsgrrlsdailyfeed.tumblr.com/post/55090258197</url>
+    <title>Wk 4 - 10/07/2013 - Adding some style to the Learners Directory</title>
+    <author>
+      <name>Team RailsGrrls (RailsApps + Rubinius)</name>
+    </author>
+    <updated>2013-07-10T15:31:00Z</updated>
+    <content>&lt;p id="docs-internal-guid-727cb89b-c933-f299-ff9c-39940c6247e5"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Installed SASS and Bootstrap&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Added an ‘About’ page using the ‘high_voltage’ gem&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;Learned more about CSS and added some style to our ‘Resource’ page&lt;img src="http://media.tumblr.com/4ecbdd422047f79669249f5e05338572/tumblr_inline_mpq8tisQyD1qz4rgp.png"/&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/136</id>
+    <published>2013-07-10T09:34:46Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://dalach.blogspot.com/2013/07/lets-meet-krug.html"/>
+    <url>http://dalach.blogspot.com/2013/07/lets-meet-krug.html</url>
+    <title>Let's meet, Krug</title>
+    <author>
+      <name>Team Species+</name>
+    </author>
+    <updated>2013-07-10T09:26:00Z</updated>
+    <content>Hi!&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;div&gt;Meet Krug*. Well, KRUG to be preciese. KRUG is an acronym for Krakow Ruby User Group, a place or maybe better community, where you can discuss and learn any Ruby, Rails or related technologies. &lt;a href="http://dalach.blogspot.com/2013/07/pinky-and-brain-take-over-rgsoc.html"&gt;As we promised on Friday&lt;/a&gt;, yesterday we attended &lt;a href="http://www.meetup.com/Krakow-Ruby-Users-Group/events/124231742/"&gt;MeetUp#6 PPPPP, Angular+Rails&lt;/a&gt;.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-fKN2Bh2SDNs/Ud0ojth61VI/AAAAAAAACEw/vUH6ioyYAWM/s1600/rgsoc8.jpeg" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="480" src="http://3.bp.blogspot.com/-fKN2Bh2SDNs/Ud0ojth61VI/AAAAAAAACEw/vUH6ioyYAWM/s640/rgsoc8.jpeg" width="640" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Where are we?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;But what we want to share today is more connected with the &lt;b&gt;way&lt;/b&gt; you can work on your RGSoC projects, than the technology.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Have you heard about Ping-Pong Pomodoro Pair Programming? Nope? So let us explain.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4&gt;Pomodoro&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Firstly, you sholud know,&amp;nbsp;&lt;a href="http://www.pomodorotechnique.com/"&gt;what Pomodoro is.&lt;/a&gt;&amp;nbsp;It is a method of working and planning, invented by Francesco Cirillo in 1980s. Frankly speakin', you focus on one task for 25 minutes (called Pomodoro), then you take a 5 minutes break. &amp;nbsp;After 4 Pomodoros you can do whatever you want for 20 minutes. Sounds cool, doesn't it?&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4&gt;Pair Programming&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Can you imagine two people working together? Of course, you can - that's a Rails Girls Summer of Code principle**. But can you imagine two people working together on the same computer? A-ha! It seems crazy, but people do that in order to get a better code quality and not be disturbed by social media, coffee breaks etc. It also means no spending hours looking for bugs that are just typo errors. OK, maybe there will be some, but it's more probable to get rid of them in a shorter time.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;What’s more we can definitely assume, that you and your potential pair have got a totally different experience – various projects done, different &lt;i&gt;favorite&lt;/i&gt; techniques… Coding together provides an easy and immediate exchange of your abilities and skills. No more schema-thinking!&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;h4&gt;Ping-Pong&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Well, can you handle it? What if we told you there is something more? &lt;i&gt;Ping-Pong&lt;/i&gt;&amp;nbsp;still needs an explanation ;) Remind yourself ping-pong game. Two crazy people almost dancing in a very strange figures and making a ball invisible for an average human being. Over and over in turns.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;The same here. Ping-Pong Pomodoro Pair Programming is an active process of creating code, when two people are engaged and share the keyboard (or have two keyboards plugged-in one computer), for example: one person writes a red test, then other implements and so on. It's simple as life - you &lt;b&gt;have&lt;/b&gt; to change the roles for staying focused. One &lt;i&gt;programmer&lt;/i&gt;&amp;nbsp;and one &lt;i&gt;watcher &lt;/i&gt;won't work.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Now you know all elements, but we can't forget to mention that this equation:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-family: 'Courier New', Courier, monospace;"&gt;Ping-Pong&amp;nbsp;&lt;/span&gt;&lt;span style="font-family: 'Courier New', Courier, monospace;"&gt;+ Pomodoro&amp;nbsp;&lt;/span&gt;&lt;span style="font-family: 'Courier New', Courier, monospace;"&gt;+ Pair Programming&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: left;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style="text-align: left;"&gt;has been invented by &lt;a href="https://twitter.com/apohorecki"&gt;Adam Pohorecki&lt;/a&gt; and &lt;a href="https://twitter.com/zwrozka"&gt;Paweł Rudy Pierzchała&lt;/a&gt;.&lt;/div&gt;&lt;div style="text-align: left;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4&gt;Summary&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We decided to try PPPPP, so we'll be informing you, how it works for our project. At the MeetUp, there were also 3 talks about AngularJS, we'll share links as soon as we get them :)&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;See you later! We're back to work :)&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Alicja &amp;amp; Wiktoria&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="background-color: white; color: #4b4b4b; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px;"&gt;PS. We're on Twitter:&amp;nbsp;&lt;/span&gt;&lt;a href="https://twitter.com/bike_lover_ka" style="background-color: white; color: #8e8e8e; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px; text-decoration: none;"&gt;@bike_lover_ka&lt;/a&gt;&lt;span style="background-color: white; color: #4b4b4b; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px;"&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;a href="https://twitter.com/wdalach" style="background-color: white; color: #8e8e8e; font-family: Verdana, Geneva, sans-serif; font-size: 13px; line-height: 18px; text-decoration: none;"&gt;@wdalach&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;br /&gt;Links:&lt;br /&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://speakerdeck.com/psyho/ping-pong-pomodoro-pair-programming"&gt;Adam's slides about PPPPP&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://wrozka.github.io/rails-n-angular-krug-09-07-2013/"&gt;Paweł Pierzchała - Angular+Rails&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://speakerdeck.com/bartes/angularjs-on-the-edge"&gt;Bartosz Knapik - AngularJS on the Edge&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/lucassus/angular-seed"&gt;Łukasz Kazimierz Bandzarewicz - repos on Github&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;*It's a joke :) Steve Krug is an author of &lt;i&gt;Don't make me think&lt;/i&gt;&amp;nbsp;- one of the coolest books about designing usable interfaces. Highly recommended :)&lt;/div&gt;&lt;div&gt;** you can also call it &lt;i&gt;base&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/135</id>
+    <published>2013-07-10T09:24:27Z</published>
+    <updated>2013-07-16T09:24:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://n-1.cc/blog/view/1705281/more-creative-heading-than-just-6th-day-of-coding"/>
+    <url>https://n-1.cc/blog/view/1705281/more-creative-heading-than-just-6th-day-of-coding</url>
+    <title>More creative heading than just 6th day of coding</title>
+    <author>
+      <name>Team D*  (Diaspora)</name>
+    </author>
+    <updated>2013-07-10T09:24:14Z</updated>
+    <content>&lt;p&gt;&lt;strong&gt;What we learned about git&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;rename a branch:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
+  &lt;pre style="margin-bottom: 0px; padding: 6px; background-color: rgb(249, 249, 249); color: rgb(34, 34, 34); font-style: normal;"&gt;
+git branch -m old_branch new_branch&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;How to get a clean branch from the upstream:&amp;nbsp;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;git fetch upstream develop&amp;nbsp;&lt;/li&gt;
+  &lt;li&gt;git reset --hard FETCH_HEAD&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;&lt;div&gt;discard unstaged changes&lt;/div&gt;&lt;ul&gt;&lt;li&gt;git update index --assume-unchanged&lt;/li&gt;
+  &lt;li&gt;or git checkout file (to discard changes when not staged)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;discard staged changes&lt;/p&gt;&lt;ul&gt;&lt;li&gt;git reset HEAD file&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;discard committed changes&lt;/p&gt;&lt;ul&gt;&lt;li&gt;git reset --soft/--hard HEAD^ (soft does it to the staging area, hard does it discharging completely)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;to do the opposite of the last commit:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;git revert&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;general message:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;think before you add/commit ;-)&lt;/li&gt;
+  &lt;li&gt;adding alias can save time&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/137</id>
+    <published>2013-07-10T10:04:20Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/55076691245"/>
+    <url>http://newrosies.tumblr.com/post/55076691245</url>
+    <title>Day 8 and Day 9</title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-10T06:56:00Z</updated>
+    <content>Hi!!! Just a short update, we still working in Koans and it&amp;#8217;s almost ready, hopefully we will...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/134</id>
+    <published>2013-07-10T06:34:40Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://defendingdiaspora.wordpress.com/?p=182"/>
+    <url>http://defendingdiaspora.wordpress.com/?p=182</url>
+    <title>Understanding RoR…</title>
+    <author>
+      <name>Team Diasbits! &lt;3 (Rails app generator and Diaspora)</name>
+    </author>
+    <updated>2013-07-10T06:26:11Z</updated>
+    <content>&lt;p&gt;&lt;a href="http://defendingdiaspora.files.wordpress.com/2013/07/ror.jpg"&gt;&lt;img class="aligncenter size-full wp-image-183" alt="RoR" src="http://defendingdiaspora.files.wordpress.com/2013/07/ror.jpg?w=760"   /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ruby on rails is a combination of ruby and rails .&lt;/p&gt;
+&lt;div&gt;&lt;strong&gt;What is ruby ?&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;[1] Object-oriented programming language&lt;/div&gt;
+&lt;div&gt;[2] Created in 1995 by Yukihiro Matsumoto ( &amp;#8220;Mats&amp;#8221; )&lt;/div&gt;
+&lt;div&gt;[3] Used for many purposes, not just web applications.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;strong&gt;What is rails ?&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;[1] Open source web application framework&lt;/div&gt;
+&lt;div&gt;[2] Written in ruby&lt;/div&gt;
+&lt;div&gt;[3] Created in 2003 by David Heinemeier Hansson (&amp;#8220;DHH&amp;#8221;)&lt;/div&gt;
+&lt;div&gt;[4] Created as foundation of 37 Signals and then released as open source in 2004&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Framework : &lt;/strong&gt;A set of code libraries and data structures that provide generic functionality which can be used, overridden or further specialized.&lt;/div&gt;
+&lt;div&gt;Rails is a web application framework running on the Ruby programming language.  It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks. Experienced Rails developers also report that it makes web application development more fun.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Rails works on MVC design pattern.&lt;img class="aligncenter size-full wp-image-184" alt="mvc" src="http://defendingdiaspora.files.wordpress.com/2013/07/mvc.png?w=760"   /&gt;&lt;/p&gt;
+&lt;p&gt;A high-level overview of how Rails applications work&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://defendingdiaspora.files.wordpress.com/2013/07/mvc_archi1.png"&gt;&lt;img class="aligncenter size-large wp-image-188" alt="mvc_architecture" src="http://defendingdiaspora.files.wordpress.com/2013/07/mvc_archi1.png?w=760&amp;#038;h=365" width="760" height="365" /&gt;&lt;/a&gt;Rails follows the model-view-controller (MVC) architectural pattern, which enforces a separation between “domain logic” (also called “business logic”) from the input and presentation logic associated with a graphical user interface (GUI). In the case of web applications, the “domain logic” typically consists of data models for things like users, articles, and products, and the GUI is just a web page in a web browser.&lt;/p&gt;
+&lt;p&gt;When interacting with a Rails application, a browser sends a &lt;em&gt;request&lt;/em&gt;, which is received by a web server and passed on to a Rails &lt;em&gt;controller&lt;/em&gt;, which is in charge of what to do next. In some cases, the controller will immediately render a &lt;em&gt;view&lt;/em&gt;, which is a template that gets converted to HTML and sent back to the browser. More commonly for dynamic sites, the controller interacts with a &lt;em&gt;model&lt;/em&gt;, which is a Ruby object that represents an element of the site (such as a user) and is in charge of communicating with the database. After invoking the model, the controller then renders the view and returns the complete web page to the browser as HTML.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://defendingdiaspora.files.wordpress.com/2013/07/mvc_archi2.png"&gt;&lt;img class="aligncenter size-large wp-image-192" alt="mvc_archi2" src="http://defendingdiaspora.files.wordpress.com/2013/07/mvc_archi2.png?w=760&amp;#038;h=340" width="760" height="340" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hoping that this post gave a good idea of what is RoR , we will get into details on MVC with a small demo app &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt; &lt;/p&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;
+&lt;br /&gt;  &lt;a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/defendingdiaspora.wordpress.com/182/"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/defendingdiaspora.wordpress.com/182/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=defendingdiaspora.wordpress.com&amp;#038;blog=54300387&amp;#038;post=182&amp;#038;subd=defendingdiaspora&amp;#038;ref=&amp;#038;feed=1" width="1" height="1" /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/148</id>
+    <published>2013-07-11T19:44:37Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://lipen.co/til/dziala.html "/>
+    <url>http://lipen.co/til/dziala.html </url>
+    <title>Działa! (pol. it works) Hurra, Hurra!</title>
+    <author>
+      <name>Team Magda (impress.js)</name>
+    </author>
+    <updated>2013-07-10T00:00:00Z</updated>
+    <content>&lt;p&gt;The end of the theoretical muttering about objects and arrays came with new assignments. Though it has been difficult, step by step, I am preparing a slide position generator. This tasks seems to be as exciting as it is frustrating.&lt;/p&gt;
+
+&lt;p&gt;The first exercise sounds easy: &amp;#8220;Let&amp;#8217;s assume that the HTML for an impress.js presentation is created (all steps) but without &lt;code&gt;data-attribute&lt;/code&gt;s. So steps don&amp;#8217;t have any position defined in HTML. (..) Write a script that runs before impress.init() that adds some positions to all steps. (..).&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;I was jumping for happiness when my simple &lt;a href='https://github.com/lipenco/impress.js-myscript'&gt;for loop&lt;/a&gt; worked.&lt;/p&gt;
+
+&lt;p&gt;I had a nice talk with my friend, an experienced developer. He tried hard to persuade me to start with Java or C#. In his opinion, JavaScript is not the right place to start: it is difficult to debug and it is hard to learn all the programming logic in the browser. &amp;#8220;The language is not important, abstract thinking and code writing are skills you need now.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;I am thinking seriously about getting back to the &lt;a href='https://www.edx.org/course/harvard-university/cs50x/introduction-computer-science/1022'&gt;CS50x&lt;/a&gt; computer science course from Harvard that I started a long time ago and never finished. It was just too painful.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thanks to Bartek I understood that impress.js is not listening to any code I am writing outside this function, which wasn&amp;#8217;t too obvious for me.&lt;/li&gt;
+
+&lt;li&gt;He taught me many other things, and found out that sometimes I pretend I understand.&lt;/li&gt;
+
+&lt;li&gt;How to make a CSS hovering animated effect that doesn&amp;#8217;t go back after hovering ends. &lt;a href='http://jsfiddle.net/rHpDn/3/'&gt;Here is a nice example.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Success should be celebrated.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/133</id>
+    <published>2013-07-09T18:24:20Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-07-09-screencasting"/>
+    <url>http://inchworms.net/blog/2013-07-09-screencasting</url>
+    <title>Screencasting</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-09T20:20:00Z</updated>
+    <content>&lt;p&gt;Personally we&amp;#39;ve found RailsCast videos really useful while learning different aspects of Rails. Watching someone guide you through putting all the relevant pieces together is a great way to help understand things. Watching someone doing something is always better than reading about it in a book. Given this, and the fact that Konstantin has been wanting to SinatraCast for a long time, we thought it would be good to make some screencasts of what we ourselves were learning with Sinatra. They could act as a useful tool for others wanting to build a simple Sinatra app :-)&lt;/p&gt;
+
+&lt;p&gt;Screencasts, however, take forever to make. They really do. It&amp;#39;s all the finicky setting up of files and windows and timing everything properly and giving good voice over. Not to mention how long it takes to render and export video files and upload them to the web at a decent quality. Before you realise it the day is almost over, and you&amp;#39;ve only managed to record half of what you wanted (and not nearly as well as you&amp;#39;d like).&lt;/p&gt;
+
+&lt;p&gt;Take 25 anyone? &lt;/p&gt;
+
+&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F100340816&amp;amp;color=ff6600&amp;amp;auto_play=false&amp;amp;show_artwork=false"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Luckily we were able to use Camtasia, an indespensible piece of screen-capturing goodness, and break into some &lt;a href="http://www.7-min.com/"&gt;7 minute&lt;/a&gt; workouts while we waited for video to export.&lt;/p&gt;
+
+&lt;p&gt;For now, Tutorial Part 1 is finished. It&amp;#39;s somewhat rough and ready, the sound is a bit dodgy, and we used a version of Ruby we shouldn&amp;#39;t have (1.8.something) but it&amp;#39;s a start. You can download a copy of the finished files for the app &lt;a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1"&gt;here&lt;/a&gt;. And fyi the best online video wesite for serving screencasts seems to be &lt;a href="http://screencast.com/"&gt;Screencast.com&lt;/a&gt; which doesn&amp;#39;t compress your videos in any way (unlike YouTube or Vimeo). This means that the image doesn&amp;#39;t lose any detail, which is very important when your video is filled with pages of relatively small type/code.&lt;/p&gt;
+
+&lt;p&gt;&lt;object id="scPlayer"  width="650" height="365" type="application/x-shockwave-flash" data="http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/scplayer.swf" &gt;
+&lt;param name="movie" value="http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/scplayer.swf" /&gt;
+&lt;param name="quality" value="high" /&gt;
+&lt;param name="bgcolor" value="#FFFFFF" /&gt;
+&lt;param name="flashVars" value="thumb=http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/FirstFrame.jpg&amp;containerwidth=1280&amp;containerheight=720&amp;xmp=sc.xmp&amp;content=http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/Tutorial%20Part%201a.mp4&amp;blurover=false" /&gt;
+&lt;param name="allowFullScreen" value="true" /&gt;
+&lt;param name="scale" value="showall" /&gt;
+&lt;param name="allowScriptAccess" value="always" /&gt;
+&lt;param name="base" value="http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/" /&gt;
+&lt;iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/embed" height="365" width="650" &gt;&lt;/iframe&gt;
+&lt;/object&gt; &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/131</id>
+    <published>2013-07-09T16:34:43Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/55008103240"/>
+    <url>http://highwaytorails.tumblr.com/post/55008103240</url>
+    <title>Day 6 - 9.7.2013 - no longer using scaffolding!</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-09T16:33:55Z</updated>
+    <content>Sorry to report, but we didn&amp;#8217;t do any testing today. Instead we brushed up on our...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/130</id>
+    <published>2013-07-09T15:54:25Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgrrlsdailyfeed.tumblr.com/post/55005131409"/>
+    <url>http://railsgrrlsdailyfeed.tumblr.com/post/55005131409</url>
+    <title>Wk 4 - 09/07/2013 - Getting started with RailsApps Learners Directory</title>
+    <author>
+      <name>Team RailsGrrls (RailsApps + Rubinius)</name>
+    </author>
+    <updated>2013-07-09T15:46:00Z</updated>
+    <content>&lt;p id="docs-internal-guid-727cb89b-c41b-cc85-9585-a1b1aa8e55cc"&gt;&lt;span&gt;Overview:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Final preparations for the first project this summer: model relational diagram and decision to use PostgreSQL&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Set up a Resource model for the RailsApps Learners Directory&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Audio interview for &lt;/span&gt;&lt;a href="http://blog.soundcloud.com/"&gt;&lt;span&gt;&lt;a href="http://blog.soundcloud.com/"&gt;http://blog.soundcloud.com/&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/129</id>
+    <published>2013-07-09T13:54:51Z</published>
+    <updated>2013-07-16T09:24:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://n-1.cc/blog/view/1704613/5th-day-of-coding"/>
+    <url>https://n-1.cc/blog/view/1704613/5th-day-of-coding</url>
+    <title>5th day of coding</title>
+    <author>
+      <name>Team D*  (Diaspora)</name>
+    </author>
+    <updated>2013-07-09T13:50:28Z</updated>
+    <content>&lt;p&gt;Today we tried working on only one computer, because I forgot my cable, which worked quite well. We found a now front end issue we could fix quite quickly once we found the method responsible for it.&amp;nbsp;&lt;/p&gt;&lt;p&gt;After fixing it we had to create new branches and delete them because we had a &amp;quot;dirty&amp;quot; local repo and did not want to have those changes in the pull request.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Finally we could make our first pull request :D.&amp;nbsp;&lt;/p&gt;&lt;p&gt;After that we quickly tried out locally to implement the strong parameters which also went quite well :)&lt;/p&gt;&lt;p&gt;looking forward to another coding&amp;nbsp;day tomorrow....&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/128</id>
+    <published>2013-07-09T09:05:10Z</published>
+    <updated>2013-07-09T09:14:43Z</updated>
+    <link rel="alternate" type="text/html" href="http://dysania.github.io/blog/2013/07/09/and-so-it-begins"/>
+    <url>http://dysania.github.io/blog/2013/07/09/and-so-it-begins</url>
+    <title>And so it Begins</title>
+    <author>
+      <name>Team Dysania (Discourse)</name>
+    </author>
+    <updated>2013-07-09T07:59:00Z</updated>
+    <content/>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/127</id>
+    <published>2013-07-09T05:34:54Z</published>
+    <updated>2013-07-16T09:24:31Z</updated>
+    <link rel="alternate" type="text/html" href="http://railsgirls-soc-losangeles.blogspot.com/2013/07/team-bundler-rails-girls-summer-of-code.html"/>
+    <url>http://railsgirls-soc-losangeles.blogspot.com/2013/07/team-bundler-rails-girls-summer-of-code.html</url>
+    <title>Team Bundler - Rails Girls Summer of Code Plan</title>
+    <author>
+      <name>Team Bundler (Bundler)</name>
+    </author>
+    <updated>2013-07-09T05:29:00Z</updated>
+    <content>&lt;h3&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Team Bundler - Rails Girls Summer of Code Plan&lt;/span&gt;&lt;/h3&gt;&lt;div&gt;&lt;div class="p1"&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Use Bundler, and take notes about what is good and what is bad about using it. We want to fix the bad things!&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Improve [site documentation](http://gembundler.com)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Improve `bundle help` [man page documentation](http://gembundler.com/v1.3/man/bundle.1.html)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;[Triage issues](https://github.com/bundler/bundler/blob/master/CONTRIBUTE.md#bug-triage)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;After taking notes about bad things, and starting to reproduce other people's problems, is there anything that you _want_ to work on? because if you're motivated to do it, chances are much higher you will want to stick with it until you figure it out.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;If not, we have a bunch of things that would make bundler better but not enough people working on them. Some of these are repeats of the steps above, but that would be fine. They need lots of doing. :)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;      &lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Bundler tasks&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;(I'm pretty sure we can find a decent number of additional tasks that fall in the easy and medium levels by just going through the open tickets. --andre)&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;easy&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;ticket triage (try to repro, ask for more information)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;update the documentation if it’s wrong or confusing&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;add documentation for things people open tickets about&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;help confused people in #bundler on freenode&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;add a useful error message when dependencies are circular (https://github.com/bundler/bundler/issues/2506)&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;medium&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Patch level support (add :patchlevel argument to the “ruby” Gemfile method)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Send useful user agent with HTTP requests (@indirect has started this, it's about 80% done in user_agent branch)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Add read-through caching to the bundler-api server (save local copies of requested gems and serve those next time)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Plugin-command support (search PATH for a command and run it if it exists)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Stop saving options passed to install (this confuses people, and we’re hoping to make it better)&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;hard&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p2"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Source disambiguation (@ckrailo has started this)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Checksum generation (@hone has started this)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Plugin callback/hook support (register code that will run when a gemfile is read, resolver is run, gem is installed, etc)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Ruby API for bundle information (Ruby class that encapsulates a parsed gemfile and provides information about gems, groups, without status, and other handy things)&lt;/span&gt;&lt;/div&gt;&lt;div class="p1"&gt;&lt;span style="font-family: Arial, Helvetica, sans-serif;"&gt;Platform support (create separate lockfile entries if install is run on jruby, windows, etc)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/126</id>
+    <published>2013-07-09T05:14:18Z</published>
+    <updated>2013-07-16T09:24:31Z</updated>
+    <link rel="alternate" type="text/html" href="http://railssoc.tumblr.com/post/54977152440"/>
+    <url>http://railssoc.tumblr.com/post/54977152440</url>
+    <title>First Week + 1 Day</title>
+    <author>
+      <name>Team California (RailsApps)</name>
+    </author>
+    <updated>2013-07-09T05:00:00Z</updated>
+    <content>&lt;p&gt;Hello and welcome to our journey! :) We are Candy and Aileen from Team California and we will be working on RailsApps. With the help of Daniel and our Coach Nirmit we hope to learn all about Ruby on Rails. Last week we focused on reviewing a new tutorial Daniel has set up for Rails. Today we read up on rvm and why it is useful. We hope to give our daily report on what we have been doing.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/132</id>
+    <published>2013-07-09T17:24:36Z</published>
+    <updated>2013-07-16T09:24:30Z</updated>
+    <link rel="alternate" type="text/html" href="http://lipen.co/til/are-we-there-yet.html "/>
+    <url>http://lipen.co/til/are-we-there-yet.html </url>
+    <title>Are We There Yet?</title>
+    <author>
+      <name>Team Magda (impress.js)</name>
+    </author>
+    <updated>2013-07-09T00:00:00Z</updated>
+    <content>&lt;p&gt;No! Why should I write my own JS code if there are so many nice books to read about it. The suspense just keep me hooked into reading more and more of them. It is a drama and the climax seems to be unreachable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://eloquentjavascript.net/'&gt;Eloquent JavaScript&lt;/a&gt; is the best position about JS I&amp;#8217;ve read so far. Not only because I can read it in Polish. I am working my ass off doing (most of) book&amp;#8217;s exercises, but let&amp;#8217;s face it - it is just not right.&lt;/p&gt;
+
+&lt;p&gt;Besides I finished my two templates. I am excited about the feedback -I will get it tomorrow.&lt;/p&gt;
+
+&lt;p&gt;The disappointing experience was my attempt to figure out how to solve the problem of &lt;a href='https://github.com/bartaz/impress.js/pull/131'&gt;relative step positioning in impress.js&lt;/a&gt;. I need to give a try again.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Closures, recursion, scopes (again), looping (again), strict mode (again)&lt;/li&gt;
+
+&lt;li&gt;Polish words in programming sounds so surprising.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Vote for &lt;a href='http://impressjs.challengepost.com/submissions/16286-presentation-about-google-convenient-tax-policy'&gt;my presentation&lt;/a&gt;!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/123</id>
+    <published>2013-07-08T16:04:41Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://inchworms.net/blog/2013-07-08-docs-back-trace"/>
+    <url>http://inchworms.net/blog/2013-07-08-docs-back-trace</url>
+    <title>The Docs, The Back Trace</title>
+    <author>
+      <name>Team Inchworms (Sinatra + Farmsubsidy)</name>
+    </author>
+    <updated>2013-07-08T17:53:00Z</updated>
+    <content>&lt;p&gt;Checking the documentation and looking at the error back trace was the theme of today. We though we&amp;#39;d sucessfully implementing the date validation on Friday afternoon, but we realised over the weekend that it was only working properly when we created a new song, not when we updated a song.&lt;/p&gt;
+
+&lt;p&gt;Matt left us in the morning with the task of working out how to fix this. His parting words were &amp;quot;Check the documentation and read the back trace&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;We spent most of the morning doing the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.kaputtmutterfischwerk.de/wp-content/uploads/2013/07/Falling-asleep-master-level.gif" alt="pillow kiss" style="width: 500px;"/&gt;&lt;/p&gt;
+
+&lt;p&gt;The issue (we eventually realised, with Urs&amp;#39; help) was that we were checking validation not on the newly entered data but on original data in the song. We had to instead make sure we were checking the updated data. This meant changing &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="text language-text" data-lang="text"&gt;    song = Song.get(param[:id])
+    if song.valid?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="text language-text" data-lang="text"&gt;    song = Song.get(param[:id])
+    if song.update(params[:song])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It only took us 3 hours to work this out :/&lt;/p&gt;
+
+&lt;p&gt;We then tried to customise the error messages that DataMapper raised. And had some success doing this. But still couldn&amp;#39;t manage to override the default error message on the date field validation. We might look at this again tomorrow.&lt;/p&gt;
+
+&lt;p&gt;We switched to preparing for the screencasts we plan to record for our https://github.com/inchworms/songs&lt;em&gt;by&lt;/em&gt;nancy/tree/Tutorial-Part-2sample app tutorial, changing our outline a little:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="text language-text" data-lang="text"&gt;Building a Basic Website - Screencast Outline
+
+Part 1 - Installing Sinatra, Basic Requests, Routes, 
+         Inline Views, Using Sinatra Reloader, Dynamic Variables
+Part 2 - Layouts, Folder Structure, External Views, 
+         Partials, Instance Variables, Images, CSS
+Part 3 - Using Static Data, Deploying to Heroku
+Part 4 - Using a Database, Add/Edit/Deleting, Validations
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We wrote rough scripts for Parts 1 &amp;amp; 2, and created branches in github where people will be able to download relevant files: &lt;a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1"&gt;Part 1&lt;/a&gt; and &lt;a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-2"&gt;Part 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/script.jpg" alt="script"&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow we&amp;#39;ll start recording screencasts for these...&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/125</id>
+    <published>2013-07-08T17:24:32Z</published>
+    <updated>2013-07-16T09:24:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://n-1.cc/blog/view/1703880/4th-day-of-coding"/>
+    <url>https://n-1.cc/blog/view/1703880/4th-day-of-coding</url>
+    <title>4th day of coding</title>
+    <author>
+      <name>Team D*  (Diaspora)</name>
+    </author>
+    <updated>2013-07-08T17:23:10Z</updated>
+    <content>&lt;p&gt;Today we started with updating our local repos and talking to the other person working on the strong parameters.&amp;nbsp;&lt;/p&gt;&lt;p&gt;After a while we decided to watch an online course which explains who to implement strong parameters in Rails 3 applications.&amp;nbsp;&lt;/p&gt;&lt;p&gt;When we were finished with that and checked the controllers of D* whether we could implement strong parameters somewhere we realized that the other person had already done everything.&amp;nbsp;&lt;/p&gt;&lt;p&gt;So next up is looking for another issue we can work on...&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/124</id>
+    <published>2013-07-08T16:35:07Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://highwaytorails.tumblr.com/post/54922213448"/>
+    <url>http://highwaytorails.tumblr.com/post/54922213448</url>
+    <title>Day 5 - 8.7.2013 - Testing and screwing up</title>
+    <author>
+      <name>Team Highway to Rails ("event_girl")</name>
+    </author>
+    <updated>2013-07-08T16:30:00Z</updated>
+    <content>Today was a rough day. sigh.
+However, it started off with a nice lesson from our coach Carsten about...</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/122</id>
+    <published>2013-07-08T07:44:17Z</published>
+    <updated>2013-07-16T09:24:28Z</updated>
+    <link rel="alternate" type="text/html" href="http://defendingdiaspora.wordpress.com/?p=126"/>
+    <url>http://defendingdiaspora.wordpress.com/?p=126</url>
+    <title>My small town..</title>
+    <author>
+      <name>Team Diasbits! &lt;3 (Rails app generator and Diaspora)</name>
+    </author>
+    <updated>2013-07-08T07:42:12Z</updated>
+    <content>&lt;p&gt;Yes yes yes it&amp;#8217;s true&amp;#8230; I am the only person in my small town, in India, who knows Ruby and Ruby on Rails&amp;#8230; !! People are still stuck to closed source. They are quite unaware of the power of open source.&lt;/p&gt;
+&lt;p&gt;If you ask them whether they know about Github, you will get awkward replies like &amp;#8220;What??&amp;#8221;, &amp;#8220;What&amp;#8217;s this??&amp;#8221;, &amp;#8220;I don&amp;#8217;t know&amp;#8221;. Many people don&amp;#8217;t even know how to use a computer or how to use Facebook.. !!&lt;/p&gt;
+&lt;p&gt;What can be worse ?? My father did not believe me when I told him that I have been selected for Rails Girls Summer of Code and that I will get a scholarship.. &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /&gt;  &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /&gt;  I did not know at that time how to explain him.&lt;/p&gt;
+&lt;p&gt;My craze for Ruby began just a few months back. I had been reading a Ruby book just like a novel. I was not studying it, to get some job. I was enjoying it, so I continued. I never knew that it will become my life and career.&lt;/p&gt;
+&lt;p&gt;Then came the twist, RGSoC. I was unaware that there is any such kind of sponsorship also.. !! My close relative told me about this. So I just filled the form without any hope of getting selected. Fortunately I made it.. &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt;  &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt;   and here I am &amp;#8230; &lt;/p&gt;
+&lt;p&gt;When my father sees me with my laptop day and night, he understands my passion. He believes me and supports me.. &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt;  &lt;/p&gt;
+&lt;p&gt;My small town people are very simple and innocent. I love my hometown and I always want to remain attached to it&amp;#8230; &lt;img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /&gt; &lt;/p&gt;
+&lt;p&gt;Thanks to Pallavi for being my partner. Thanks to all for reading my little story.. &lt;/p&gt;
+&lt;p&gt;Regards &lt;/p&gt;
+&lt;p&gt;Sakshi Jain&lt;/p&gt;
+&lt;br /&gt;  &lt;a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/defendingdiaspora.wordpress.com/126/"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/defendingdiaspora.wordpress.com/126/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=defendingdiaspora.wordpress.com&amp;#038;blog=54300387&amp;#038;post=126&amp;#038;subd=defendingdiaspora&amp;#038;ref=&amp;#038;feed=1" width="1" height="1" /&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/121</id>
+    <published>2013-07-08T05:14:16Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/54891485641"/>
+    <url>http://newrosies.tumblr.com/post/54891485641</url>
+    <title>Day 7: Rest day</title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-08T05:04:36Z</updated>
+    <content>Today we were resting and preparing our engines for another week of work :D
+Have a good week</content>
+  </entry>
+  <entry>
+    <id>tag:teams.railsgirlssummerofcode.org,2005:Activity/120</id>
+    <published>2013-07-07T05:04:28Z</published>
+    <updated>2013-07-16T09:24:27Z</updated>
+    <link rel="alternate" type="text/html" href="http://newrosies.tumblr.com/post/54807368840"/>
+    <url>http://newrosies.tumblr.com/post/54807368840</url>
+    <title>Day 6. </title>
+    <author>
+      <name>Team New Rosies (Rails/Conductor)</name>
+    </author>
+    <updated>2013-07-07T04:57:43Z</updated>
+    <content>This was our last day&amp;#8217;s work of the week. We were busy learning while solving rubykoans...</content>
+  </entry>
+</feed>
