@@ -5,6 +5,7 @@ require_relative '../../../support/match_date'
 describe Wordpress::Comments::Client do
 
   let(:client) { Wordpress::Comments::Client.new 'http://teams.railsgirlssummerofcode.org/activities.atom' }
+  let(:xml) { File.read(File.join('spec', 'fixtures', 'feed.xml'))}
   
   describe "#initialize" do
 
@@ -16,7 +17,6 @@ describe Wordpress::Comments::Client do
 
   describe "#parse" do
     # variablen definieren
-    let(:xml) { File.read(File.join('spec', 'fixtures', 'feed.xml'))}
     let(:posts) { client.parse xml }
     let(:post) { posts.first }
     
@@ -41,7 +41,50 @@ describe Wordpress::Comments::Client do
 
     it "extracts the date(redux)" do
       # 2013-07-16T05:34:27Z
-      expect(post[:date]).to match_date  '2013-07-16'
+      expect(post[:date]).to match_date '2013-07-16'
+    end
+
+  end
+
+  describe "#fetch" do
+  let(:posts) {client.fetch}
+
+    context "success" do 
+
+      before(:each) do
+        client.stub(:get).and_return(xml)
+      end
+
+      it "build post objects" do
+        expect(posts.length).to eq 50
+      end
+
+    end
+
+    context "bad URL" do
+
+      let(:client) { Wordpress::Comments::Client.new 'not a URL' }
+
+      it "raises error" do
+        expect {
+          client.fetch
+        }.to raise_error(Errno::ENOENT)
+      end 
+
+    end
+
+    context "bad XML" do
+
+      before(:each) do
+        client.stub(:get).and_return("BAD XML!")
+      end
+
+      it "raise error from Nokogiri" do
+        expect{
+          client.fetch
+          }.to raise_error(Nokogiri::XML::SyntaxError)
+      end
+
     end
 
   end
