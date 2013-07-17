@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'date'
 
 module Wordpress
   module Comments
@@ -19,6 +20,8 @@ module Wordpress
           item = {}
           item[:url] = doc_item.at('url').text
           item[:title] = doc_item.at('title').text
+          item[:commenter] = doc_item.css('author name').text
+          item[:date] = DateTime.parse doc_item.at('published').text
           item 
         end
       end
